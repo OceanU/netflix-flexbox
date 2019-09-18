@@ -1,0 +1,74 @@
+body {
+	background-color: rgba(19, 20, 22);
+	font-family: 'Roboto', sans-serif;
+	}
+
+.logo {
+	width: 100px;
+	height: auto;
+	margin: 10px 0px 0px 40px;
+	cursor: pointer;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-weight: 100;
+	margin-top: 6%;
+	font-size: 50px;
+}
+
+div p {
+	color: white;
+	opacity: 0.5;
+	text-align: center;
+}
+
+div .box.cell {
+	border:5px white solid;
+	width: 8rem;
+	height: 8rem;
+	background: rgba(68, 71, 71);
+	border-color: rgba(68, 71, 71);
+}
+
+.cell {
+ 	margin: 10px 50px;
+}
+
+.box {
+	margin: 0px 20px;
+}
+
+.cell_gest {
+	border: 1px solid rgba(68, 71, 71);
+	width: 240px;
+	padding: 2px 5px;
+	margin: auto;
+	cursor: pointer;
+}
+.cell_gest p {
+	margin: 4px 5px;
+}
+
+.cell_gest p:hover {
+	opacity: 1;
+}
+
+div>div:hover div.box {
+	border-color: white;
+	cursor: pointer;
+}
+
+div>div:hover p.cell {
+	opacity: 1;
+}
+

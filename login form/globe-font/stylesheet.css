@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Globe Icons';
+    src: url('GlobeIcons.eot');
+    src: url('GlobeIcons.eot?#iefix') format('embedded-opentype'),
+        url('GlobeIcons.woff2') format('woff2'),
+        url('GlobeIcons.woff') format('woff'),
+        url('GlobeIcons.ttf') format('truetype'),
+        url('GlobeIcons.svg#GlobeIcons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
